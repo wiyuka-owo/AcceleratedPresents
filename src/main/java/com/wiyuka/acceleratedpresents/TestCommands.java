@@ -57,9 +57,9 @@ public final class TestCommands {
     @SubscribeEvent
     public static void onRegisterCommands(final RegisterCommandsEvent event) {
         // Debug-only harness: never register the /aptest command tree in a production (published) build.
-//        if (FMLEnvironment.isProduction()) {
-//            return;
-//        }
+        if (FMLEnvironment.isProduction()) {
+            return;
+        }
 
         CommandDispatcher<CommandSourceStack> dispatcher = event.getDispatcher();
 
