@@ -4,7 +4,7 @@
 
 ---
 
-AcceleratedPresents 是一个面向 Minecraft 客户端的优化模组，解决服务器上大量纯色背景文本展示实体带来的渲染开销。
+AcceleratedPresents 是一个面向 Minecraft 客户端的优化模组，解决客户端上大量纯色背景文本展示实体带来的渲染开销。
 
 ## 性能测试
 
